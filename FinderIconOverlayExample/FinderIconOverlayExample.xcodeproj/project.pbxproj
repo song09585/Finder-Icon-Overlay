@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D6C5B815759400004C9D51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D6C5B715759400004C9D51 /* Cocoa.framework */; };
+		B6D6C5C215759400004C9D51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D6C5C015759400004C9D51 /* InfoPlist.strings */; };
+		B6D6C5CB15759468004C9D51 /* FinderIconOverlayExample.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6C5CA15759468004C9D51 /* FinderIconOverlayExample.m */; };
+		B6D6C5CE157594F6004C9D51 /* ListViewIconOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6C5CD157594F5004C9D51 /* ListViewIconOverlay.m */; };
+		B6D6C5D115759507004C9D51 /* IconViewIconOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6C5D015759507004C9D51 /* IconViewIconOverlay.m */; };
+		B6D6C5D3157595B7004C9D51 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D6C5D2157595B7004C9D51 /* Quartz.framework */; };
+		B6D6C5D61575A157004C9D51 /* ok.icns in Resources */ = {isa = PBXBuildFile; fileRef = B6D6C5D51575A156004C9D51 /* ok.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6D6C5B415759400004C9D51 /* FinderIconOverlayExample.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderIconOverlayExample.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D6C5B715759400004C9D51 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B6D6C5BA15759400004C9D51 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B6D6C5BB15759400004C9D51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6D6C5BC15759400004C9D51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6D6C5BF15759400004C9D51 /* FinderIconOverlayExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderIconOverlayExample-Info.plist"; sourceTree = "<group>"; };
+		B6D6C5C115759400004C9D51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6D6C5C315759400004C9D51 /* FinderIconOverlayExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinderIconOverlayExample-Prefix.pch"; sourceTree = "<group>"; };
+		B6D6C5C915759468004C9D51 /* FinderIconOverlayExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderIconOverlayExample.h; sourceTree = "<group>"; };
+		B6D6C5CA15759468004C9D51 /* FinderIconOverlayExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderIconOverlayExample.m; sourceTree = "<group>"; };
+		B6D6C5CC157594F5004C9D51 /* ListViewIconOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewIconOverlay.h; sourceTree = "<group>"; };
+		B6D6C5CD157594F5004C9D51 /* ListViewIconOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewIconOverlay.m; sourceTree = "<group>"; };
+		B6D6C5CF15759507004C9D51 /* IconViewIconOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewIconOverlay.h; sourceTree = "<group>"; };
+		B6D6C5D015759507004C9D51 /* IconViewIconOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewIconOverlay.m; sourceTree = "<group>"; };
+		B6D6C5D2157595B7004C9D51 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		B6D6C5D41575962B004C9D51 /* Finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finder.h; sourceTree = "<group>"; };
+		B6D6C5D51575A156004C9D51 /* ok.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ok.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D6C5B115759400004C9D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D6C5D3157595B7004C9D51 /* Quartz.framework in Frameworks */,
+				B6D6C5B815759400004C9D51 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D6C5A915759400004C9D51 = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5D2157595B7004C9D51 /* Quartz.framework */,
+				B6D6C5BD15759400004C9D51 /* FinderIconOverlayExample */,
+				B6D6C5B615759400004C9D51 /* Frameworks */,
+				B6D6C5B515759400004C9D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D6C5B515759400004C9D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5B415759400004C9D51 /* FinderIconOverlayExample.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D6C5B615759400004C9D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5B715759400004C9D51 /* Cocoa.framework */,
+				B6D6C5B915759400004C9D51 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6D6C5B915759400004C9D51 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5BA15759400004C9D51 /* AppKit.framework */,
+				B6D6C5BB15759400004C9D51 /* CoreData.framework */,
+				B6D6C5BC15759400004C9D51 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B6D6C5BD15759400004C9D51 /* FinderIconOverlayExample */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5BE15759400004C9D51 /* Supporting Files */,
+				B6D6C5C915759468004C9D51 /* FinderIconOverlayExample.h */,
+				B6D6C5CA15759468004C9D51 /* FinderIconOverlayExample.m */,
+				B6D6C5CC157594F5004C9D51 /* ListViewIconOverlay.h */,
+				B6D6C5CD157594F5004C9D51 /* ListViewIconOverlay.m */,
+				B6D6C5CF15759507004C9D51 /* IconViewIconOverlay.h */,
+				B6D6C5D015759507004C9D51 /* IconViewIconOverlay.m */,
+			);
+			path = FinderIconOverlayExample;
+			sourceTree = "<group>";
+		};
+		B6D6C5BE15759400004C9D51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6C5D51575A156004C9D51 /* ok.icns */,
+				B6D6C5D41575962B004C9D51 /* Finder.h */,
+				B6D6C5BF15759400004C9D51 /* FinderIconOverlayExample-Info.plist */,
+				B6D6C5C015759400004C9D51 /* InfoPlist.strings */,
+				B6D6C5C315759400004C9D51 /* FinderIconOverlayExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D6C5B315759400004C9D51 /* FinderIconOverlayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D6C5C615759400004C9D51 /* Build configuration list for PBXNativeTarget "FinderIconOverlayExample" */;
+			buildPhases = (
+				B6D6C5B015759400004C9D51 /* Sources */,
+				B6D6C5B115759400004C9D51 /* Frameworks */,
+				B6D6C5B215759400004C9D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderIconOverlayExample;
+			productName = FinderIconOverlayExample;
+			productReference = B6D6C5B415759400004C9D51 /* FinderIconOverlayExample.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D6C5AB15759400004C9D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B6D6C5AE15759400004C9D51 /* Build configuration list for PBXProject "FinderIconOverlayExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6D6C5A915759400004C9D51;
+			productRefGroup = B6D6C5B515759400004C9D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D6C5B315759400004C9D51 /* FinderIconOverlayExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D6C5B215759400004C9D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D6C5C215759400004C9D51 /* InfoPlist.strings in Resources */,
+				B6D6C5D61575A157004C9D51 /* ok.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D6C5B015759400004C9D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D6C5CB15759468004C9D51 /* FinderIconOverlayExample.m in Sources */,
+				B6D6C5CE157594F6004C9D51 /* ListViewIconOverlay.m in Sources */,
+				B6D6C5D115759507004C9D51 /* IconViewIconOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6D6C5C015759400004C9D51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D6C5C115759400004C9D51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D6C5C415759400004C9D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6D6C5C515759400004C9D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6D6C5C715759400004C9D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderIconOverlayExample/FinderIconOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "FinderIconOverlayExample/FinderIconOverlayExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B6D6C5C815759400004C9D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderIconOverlayExample/FinderIconOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "FinderIconOverlayExample/FinderIconOverlayExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D6C5AE15759400004C9D51 /* Build configuration list for PBXProject "FinderIconOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D6C5C415759400004C9D51 /* Debug */,
+				B6D6C5C515759400004C9D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D6C5C615759400004C9D51 /* Build configuration list for PBXNativeTarget "FinderIconOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D6C5C715759400004C9D51 /* Debug */,
+				B6D6C5C815759400004C9D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D6C5AB15759400004C9D51 /* Project object */;
+}

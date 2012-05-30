@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FinderIconOverlayExample' target in the 'FinderIconOverlayExample' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
